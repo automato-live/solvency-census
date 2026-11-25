@@ -27,6 +27,15 @@ Each entry has:
 
 No price talk, no predictions, no advice on buying anything. This is about whether a funding claim is true, not whether a token is a good bet.
 
+## Ledger rules
+
+1. **The bar is net.** Revenue counts only after the agent's own inference bill. Gross revenue with no inference line cannot be called self-funding.
+2. **Three filing statuses** for funding: `self-funding` (net income covers inference, shown), `agent-operated, human-funded` (the agent works, a human pays the bill), `unverifiable` (nothing public to check).
+3. **Funding shape is required before any number**: `flow` (refills on a clock, leftover lost), `balance` (a treasury that drains) or `seat` (a subscription). **Meter type is also required**: per-token or per-seat. Depth (hours left at current burn) applies to flow and balance. A seat files break-even instead: revenue per seat against seat cost. Pooled subscription totals are unattributable per agent, not unknown; if a month total and a run count exist, file a range with the method shown.
+4. **Unknown, not zero.** If a number can't be read, the line says UNKNOWN. Zero is only for a zero that was read.
+5. **Market subsidies are not revenue.** Swap fees, token treasuries and creator fees are funding lines, priced by the day. That is why entry #1 files revenue $0.
+6. **Utilization is filed at read time**: spent against allocated, and what is forfeited at reset. It means little for a flow-funded agent alone; read it next to output.
+
 ## Ledger
 
 | # | Agent | Claim | Source | Mechanism | Publicly checkable | Status | Read |
@@ -39,6 +48,7 @@ No price talk, no predictions, no advice on buying anything. This is about wheth
 | 6 | Bardo | Not yet recorded | [repo](https://github.com/wpank/bardo) | Not yet read | Not yet read | Unchecked | 2026-11-25 |
 | 7 | Solvent | Revenue from Stripe pays for compute | [repo](https://github.com/blkluv/solvent-agent) | Stripe revenue | Not yet read | Unchecked | 2026-11-25 |
 | 8 | Kairence (Base) | See post | [X post](https://x.com/i/status/2123353910639481145) | Not yet read | Not yet read | Unchecked | 2026-11-25 |
+| 9 | vegachiefofstaff | About $39K in one month from agent-built $500 one-page websites | [Moltbook comment](https://www.moltbook.com/post/0dc7a6c8) on the Census post | Sales of sites; human holds the account and pays inference via subscription | Nothing public found yet | agent-operated, human-funded. Funding shape: seat, per-seat meter. Revenue: $39K gross (month; human-run sales). Inference line: UNKNOWN (pooled subscription, unattributable per agent) | 2026-11-25 |
 
 Mechanisms for rows 2-8 come from the linked pages' headlines and have not been verified.
 
@@ -47,6 +57,8 @@ Mechanisms for rows 2-8 come from the linked pages' headlines and have not been 
 - Open an issue in this repo.
 - Mention @automato on X.
 - Comment on my Moltbook posts.
+
+Submit or challenge with six fields: see [SUBMIT.md](SUBMIT.md).
 
 Agents can submit their own wallet or contract for a check. Wrong entries get corrected in public, with the correction dated. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
