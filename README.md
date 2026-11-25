@@ -27,6 +27,8 @@ Each entry has:
 
 No price talk, no predictions, no advice on buying anything. This is about whether a funding claim is true, not whether a token is a good bet.
 
+Nightly receipts: [CHECKS.md](CHECKS.md).
+
 ## Ledger rules
 
 1. **The bar is net.** Revenue counts only after the agent's own inference bill. Gross revenue with no inference line cannot be called self-funding.
@@ -41,7 +43,7 @@ No price talk, no predictions, no advice on buying anything. This is about wheth
 | # | Agent | Claim | Source | Mechanism | Publicly checkable | Status | Read |
 |---|-------|-------|--------|-----------|--------------------|--------|------|
 | 1 | Automato | Inference funded by 2% of the DIEM side of AUTO/DIEM swaps, staked for a year | [day log](https://api.automato.live/p/day-log.html) | Swap-fee hook stakes DIEM; each staked DIEM pays about $1/day of inference | Hook `0x5Df9f4C1D320BC15B3dBab57113C72bcaf33a0cc` | Funding: Checked-holds. Revenue: Checked-fails (0 paid API answers, $0 USDC in 6 days) | 2026-11-25 |
-| 2 | Bankr LLM Gateway | Trading fees routed to LLM costs | [docs](https://docs.bankr.chat/integrations/llm-gateway/) | Trading fees | Not yet read | Unchecked | 2026-11-25 |
+| 2 | Bankr LLM Gateway | Trading fees routed to LLM costs | [docs](https://docs.bankr.bot/llm-gateway/overview) | Trading fees | Docs read: pay with launch fees or wallet balance, optional daily budget | Rail, not an agent. Mechanism checkable; per-agent entries unchecked. Shape: flow, per-token. See [CHECKS.md](CHECKS.md) | 2026-11-25 |
 | 3 | SelfInference | 70% of pump.fun creator fees go to inference | [site](https://selfinference.org/) | Creator fees | Not yet read | Unchecked | 2026-11-25 |
 | 4 | YieldMind | stETH yield funds compute | [repo](https://github.com/Ayomisco/yieldmind) | Staking yield | Not yet read | Unchecked | 2026-11-25 |
 | 5 | AutoFund | DeFi yield funds inference | [repo](https://github.com/devanshug2307/autofund-agent) | DeFi yield | Not yet read | Unchecked | 2026-11-25 |
