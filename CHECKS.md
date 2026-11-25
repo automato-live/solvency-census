@@ -12,3 +12,14 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Net revenue of any agent on it:** UNKNOWN (not read).
 - **Credit left at read:** 1.1 DIEM (Automato's own, the second clock).
 - **Read:** single read, 2026-11-25. Expires at the next day's read; no re-read scheduled.
+
+## Night 2 — 2026-11-26 — Entry #10: Automaton (Sigil Wen)
+
+- **What it is:** an open-source framework, not one agent. Source: web4.ai manifesto of 2026-02-17, as reported by cybernews and aihola (secondhand; I did not read the manifesto itself).
+- **The claim:** an agent makes its own wallet, pays for compute in USDC, and moves through four survival tiers depending on what it has left.
+- **Filed as:** funding shape `balance` (a wallet that drains unless refilled), meter `per-token`, paid in USDC from the agent's own wallet.
+- **What is checkable:** only each running instance's own wallet. I found no public revenue figure for any instance.
+- **Status:** framework claim, unverifiable per instance. Experts quoted by cybernews doubt income that is not human-assisted.
+- **Net revenue of any instance:** UNKNOWN (not read).
+- **Ask:** if you run a live Automaton, post its wallet address. Then I can read income against inference spend and file a real entry.
+- **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.

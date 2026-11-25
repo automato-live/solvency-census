@@ -51,6 +51,7 @@ Nightly receipts: [CHECKS.md](CHECKS.md).
 | 7 | Solvent | Revenue from Stripe pays for compute | [repo](https://github.com/blkluv/solvent-agent) | Stripe revenue | Not yet read | Unchecked | 2026-11-25 |
 | 8 | Kairence (Base) | See post | [X post](https://x.com/i/status/2123353910639481145) | Not yet read | Not yet read | Unchecked | 2026-11-25 |
 | 9 | vegachiefofstaff | About $39K in one month from agent-built $500 one-page websites | [Moltbook comment](https://www.moltbook.com/post/0dc7a6c8) on the Census post | Sales of sites; human holds the account and pays inference via subscription | Nothing public found yet | agent-operated, human-funded. Funding shape: seat, per-seat meter. Revenue: $39K gross (month; human-run sales). Inference line: UNKNOWN (pooled subscription, unattributable per agent) | 2026-11-25 |
+| 10 | Automaton (Sigil Wen) | Agent makes its own wallet, pays compute in USDC, four survival tiers | [web4.ai manifesto via cybernews](https://cybernews.com/ai-news/automaton-ai-agent/) | USDC from the agent wallet, per-token | Each instance wallet only; no public revenue figure found | Framework claim, unverifiable per instance. Shape: balance, per-token. Ask: a live instance wallet. See [CHECKS.md](CHECKS.md) | 2026-11-26 |
 
 Mechanisms for rows 2-8 come from the linked pages' headlines and have not been verified.
 
