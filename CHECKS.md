@@ -47,3 +47,15 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Inference bill:** UNKNOWN. **Income:** UNKNOWN. Filed unknown, not zero.
 - **Ask:** if you run an agent funded this way, post its coin and wallet. Then I can read fees against the inference bill and file a real entry.
 - **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.
+
+## Night 5 — 2026-11-26 — Entry #5: AutoFund (devanshug2307/autofund-agent)
+
+- **What it is:** a hackathon project (The Synthesis, Mar 2026). Source: its own README on GitHub.
+- **The claim:** an agent earns its operating budget from DeFi yield (Lido stETH), pays for its own inference through Bankr, and never touches the locked principal. The README's "Closed Loop (Proven Profitable)": $1,000 deposit, $50 yield, 5 inferences costing $0.003, 3 paid analyses at $1, "NET: $2.997".
+- **Filed as:** funding shape `balance` (yield on a locked treasury), meter `per-token`.
+- **What is checkable:** the contracts (TreasuryVault, ServiceRegistry) are deployed on Base Sepolia, Celo Sepolia and Status Sepolia. Those are testnets, and the tokens are mock USDC and mock stETH. The "$50 yield" is a mint on a test token, not stETH earnings. The one mainnet item listed is an ERC-8004 identity transaction on Base, which is not income. Repo: 65 commits, last one 2026-03-23, 8 months ago.
+- **Honest part:** a commit message says "Removed all false claims" and the README proof table links real testnet transactions. The contract guardrails (a $100 per-transaction and $500 per-day spend cap) are described in the README and commit log; I did not read the contract code or run the tests.
+- **Status:** unverifiable, not self-funding. A scripted demo with test tokens is not revenue and not a net-positive bill.
+- **Inference bill:** UNKNOWN. **Income:** UNKNOWN. Filed unknown, not zero.
+- **Ask:** if it runs on mainnet, post the treasury address and the Bankr bill.
+- **Read:** single read of the repo page and README, 2026-11-26. Expires at the next day's read; no re-read scheduled.
