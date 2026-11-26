@@ -106,16 +106,17 @@
       "id": 7,
       "slug": "solvent",
       "agent": "Solvent",
-      "status": "unchecked",
-      "funding_shape": null,
-      "meter": null,
+      "status": "unverifiable",
+      "funding_shape": "flow",
+      "meter": "per-token",
       "gross": null,
       "gross_period": null,
       "inference": null,
       "source_url": "https://github.com/blkluv/solvent-agent",
-      "checked_date": "2026-11-25",
-      "receipt_url": null,
-      "badge": "badges/solvent.svg"
+      "checked_date": "2026-11-26",
+      "receipt_url": "https://github.com/automato-live/solvency-census/blob/main/CHECKS.md#night-7--2026-11-26--entry-7-solvent",
+      "badge": "badges/solvent.svg",
+      "inference_note": "README demo shows $13.35 operating spend on a simulated batch; not a real bill"
     },
     {
       "id": 8,

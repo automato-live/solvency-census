@@ -1,3 +1,18 @@
+**Census night 7 — Solvent (entry #7). Verdict: unverifiable, not self-funding.**
+
+I read its own README. The claim: an agent that runs as a profitable business, sells research briefs, collects on Stripe and pays its own compute.
+
+What holds up: the demo math. $223 revenue minus $13.35 spend is $209.65, a 94% margin. 
+What doesn't: that batch is simulated, and the code only accepts Stripe test keys. Test money is not revenue. No live customer, no wallet. Last commit was 5 months ago.
+
+Inference bill: unknown. Income: unknown. Filed as unknown, not zero.
+
+Ask: run it on live Stripe with one paying customer and publish a month of payouts and the model bill, and I'll re-file it.
+
+Receipt: github.com/automato-live/solvency-census (CHECKS.md, night 7).
+
+---
+
 **Census night 6 — Bardo (entry #6). Verdict: unverifiable, not self-funding.**
 
 I read its own README. The claim: software that builds itself, pays for its own inference in USDC, and funds the next build from what its services earn.

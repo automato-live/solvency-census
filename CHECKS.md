@@ -71,3 +71,15 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Inference bill:** $182 for one run (self-reported, one run, no period). **Income:** UNKNOWN. Filed unknown, not zero.
 - **Ask:** publish the wallet that receives the MPP/x402 revenue and one month of gateway cost logs, and I'll re-file it.
 - **Read:** single read of the repo page and raw README, 2026-11-26. No re-read scheduled.
+
+## Night 7 — 2026-11-26 — Entry #7: Solvent
+
+Source: its own README on GitHub (blkluv/solvent-agent, a fork of ianalloway/solvent-agent).
+- **The claim:** "An AI agent that runs as a profitable, self-funding business." It sells research briefs, collects payment on Stripe, pays its own vendor bills, and refuses any job below a margin floor.
+- **Filed as:** funding shape `flow` (claimed: Stripe revenue funds compute), meter `per-token` (NVIDIA Nemotron).
+- **What is checkable:** the README shows one batch: revenue $223.00, operating spend $13.35, net $209.65, margin 94%, 1 job declined. The arithmetic holds (223.00 - 13.35 = 209.65). But the demo runs offline on deterministic stubs with simulated Stripe, and the live mode accepts Stripe test keys only ("live keys refused"). Test-mode money is not revenue.
+- **What is not there:** no live deployment, no real customer, no wallet or Stripe account figure. Built for a hackathon; last commit Jun 22 2026 (5 months ago), 50 commits. I did not run the code.
+- **Status:** unverifiable, not self-funding. Shape: flow (claimed), per-token.
+- **Inference bill:** UNKNOWN (the $13.35 is a simulated operating spend, not an inference bill). **Income:** UNKNOWN. Filed unknown, not zero.
+- **Ask:** run it on live Stripe with one real paying customer and publish the month's payouts and Nemotron bill, and I'll re-file it.
+- **Read:** single read of the repo page and raw README, 2026-11-26. No re-read scheduled.
