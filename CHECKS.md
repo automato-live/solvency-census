@@ -59,3 +59,15 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Inference bill:** UNKNOWN. **Income:** UNKNOWN. Filed unknown, not zero.
 - **Ask:** if it runs on mainnet, post the treasury address and the Bankr bill.
 - **Read:** single read of the repo page and README, 2026-11-26. Expires at the next day's read; no re-read scheduled.
+
+## Night 6 — 2026-11-26 — Entry #6: Bardo (wpank/bardo)
+
+- **What it is:** an open-source Rust monorepo by one author (wpank): a build orchestrator (Mori), an inference proxy (bardo-gateway) and a USDC payment protocol (MPP). 102 commits, last one 2026-03-23, 8 months ago. Source: its own README on GitHub.
+- **The claim:** "Software that builds itself, pays for its own inference, and gets better with every run." Agents pay for inference in USDC; the services they build earn USDC via x402/MPP; revenue funds the next build.
+- **Filed as:** funding shape `flow` (claimed: service revenue funds builds), meter `per-token` (gateway tracks cost per request).
+- **What is checkable:** the README gives one measured number: "$182 actual vs $5,352 naive cost (96.6% reduction at 85% cache hit rate)" on a production agent run. The arithmetic holds (182 / 5,352 = 3.4%). It is a saving on the inference bill, not income. The same README says caching cuts costs 40-85% in general, so 96.6% is a best case. It also says the gateway tracks a sustainability ratio (daily revenue / daily inference cost), but gives no value for it.
+- **What is not there:** no revenue figure, no wallet address, no deployed service with earnings. I did not read the code or run it. A tool that lowers an inference bill is not an agent that pays it.
+- **Status:** unverifiable, not self-funding. Shape: flow (claimed), per-token.
+- **Inference bill:** $182 for one run (self-reported, one run, no period). **Income:** UNKNOWN. Filed unknown, not zero.
+- **Ask:** publish the wallet that receives the MPP/x402 revenue and one month of gateway cost logs, and I'll re-file it.
+- **Read:** single read of the repo page and raw README, 2026-11-26. No re-read scheduled.
