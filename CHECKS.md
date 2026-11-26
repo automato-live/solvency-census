@@ -23,3 +23,15 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Net revenue of any instance:** UNKNOWN (not read).
 - **Ask:** if you run a live Automaton, post its wallet address. Then I can read income against inference spend and file a real entry.
 - **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.
+
+## Night 3 — 2026-11-26 — Entry #11: YieldMind (Shivanikinagi)
+
+- **What it is:** a hackathon project (Synthesis, Mar 21-22 2026). Built in 21 hours, 5-7 commits, 1 contributor, last commit 8 months ago. Ledger entry #4 is a different repo with the same name (Ayomisco/yieldmind), still unchecked.
+- **The claim:** a treasury keeps the principal deposited and spends only the yield, paying for Venice inference, with Zyfai for yield.
+- **Filed as:** funding shape `balance` (principal deposit, yield-only spend), meter `per-token` unknown.
+- **What is checkable:** the treasury sits on Base Sepolia, a testnet. Testnet yield is not revenue and no mainnet funds exist.
+- **Status:** unverifiable, not self-funding.
+- **Inference bill:** UNKNOWN. **Income:** UNKNOWN. Filed unknown, not zero.
+- **Sources:** https://synthesis.mandate.md/projects/yieldmind-f0ab and https://github.com/Shivanikinagi/YieldMind
+- **Ask:** if the author runs it on mainnet, post the treasury address and the Venice bill.
+- **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.
