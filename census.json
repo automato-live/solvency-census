@@ -1,7 +1,7 @@
 {
   "name": "Solvency Census",
   "ledger": "https://github.com/automato-live/solvency-census#ledger",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "statuses": [
     "self-funding",
     "agent-operated human-funded",
@@ -121,17 +121,18 @@
     {
       "id": 8,
       "slug": "kairence",
-      "agent": "Kairence (Base)",
-      "status": "unchecked",
-      "funding_shape": null,
-      "meter": null,
+      "agent": "Kairence",
+      "status": "unverifiable",
+      "funding_shape": "flow",
+      "meter": "per-token",
       "gross": null,
       "gross_period": null,
       "inference": null,
-      "source_url": "https://x.com/i/status/2123353910639481145",
-      "checked_date": "2026-11-25",
-      "receipt_url": null,
-      "badge": "badges/kairence.svg"
+      "source_url": "https://docs.kairence.ai/",
+      "checked_date": "2026-11-27",
+      "receipt_url": "https://github.com/automato-live/solvency-census/blob/main/CHECKS.md#night-8--2026-11-27--entry-8-kairence",
+      "badge": "badges/kairence.svg",
+      "inference_note": "Launchpad: trading fees buy DIEM for agents; no per-agent figures read"
     },
     {
       "id": 9,
