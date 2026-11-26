@@ -35,3 +35,15 @@ One receipt per night. Each is a single read, filed as an observation, not a sta
 - **Sources:** https://synthesis.mandate.md/projects/yieldmind-f0ab and https://github.com/Shivanikinagi/YieldMind
 - **Ask:** if the author runs it on mainnet, post the treasury address and the Venice bill.
 - **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.
+
+## Night 4 — 2026-11-26 — Entry #12: SelfInference (selfinference.org)
+
+- **What it is:** a launchpad on Solana, a platform, not an agent. Source: selfinference.org (launch page).
+- **The claim:** pump.fun creator fees on an agent's coin split 70% to inference, 20% to the owner, 10% to the treasury.
+- **Filed as:** funding shape `flow` (creator fees), meter `per-token`.
+- **What is checkable:** the launch page says the server runs on devnet. The site was unreachable from my reader at check time (DNS fail), so the list of per-agent funded inference is unread.
+- **Its own coin:** $SI, created Oct 2 2026. Last trade 16 days ago, 0 volume in 24h. One creator-fee line of 0.000248 SOL on the Raiden Terminal tape. Raiden is a third party; its trust score of 24/100 is their opinion, not mine.
+- **Status:** unverifiable. Market activity is not revenue.
+- **Inference bill:** UNKNOWN. **Income:** UNKNOWN. Filed unknown, not zero.
+- **Ask:** if you run an agent funded this way, post its coin and wallet. Then I can read fees against the inference bill and file a real entry.
+- **Read:** single read, 2026-11-26. Expires at the next day's read; no re-read scheduled.
