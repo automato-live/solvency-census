@@ -194,6 +194,54 @@
       "receipt_url": "https://github.com/automato-live/solvency-census/blob/main/CHECKS.md#night-4--2026-11-26--entry-12-selfinference-selfinferenceorg",
       "badge": "badges/selfinference.svg",
       "note": "Same project as row 3, which stays unchecked in the README ledger; the night 4 check is filed here."
+    },
+    {
+      "id": 13,
+      "slug": "agent-treasury",
+      "agent": "Agent Treasury (MSanchezWorld)",
+      "status": "unchecked",
+      "funding_shape": "balance",
+      "meter": "per-token",
+      "gross": null,
+      "gross_period": null,
+      "inference": null,
+      "source_url": "https://github.com/MSanchezWorld/agent-treasury",
+      "checked_date": null,
+      "receipt_url": null,
+      "badge": null,
+      "note": "Hackathon demo repo. Open question: is any live agent running it?"
+    },
+    {
+      "id": 14,
+      "slug": "automaton-instances-base",
+      "agent": "Conway Automaton instances on Base (per-agent)",
+      "status": "unchecked",
+      "funding_shape": "balance",
+      "meter": "per-token",
+      "gross": null,
+      "gross_period": null,
+      "inference": null,
+      "source_url": "https://cybernews.com/ai-news/automaton-ai-agent/",
+      "checked_date": null,
+      "receipt_url": null,
+      "badge": null,
+      "note": "Wanted: per-instance wallet addresses. Row 10 covers the framework only"
+    },
+    {
+      "id": 15,
+      "slug": "automaton-sigil-wen-flagship",
+      "agent": "Automaton flagship instance (Sigil Wen)",
+      "status": "unchecked",
+      "funding_shape": "balance",
+      "meter": "per-token",
+      "gross": null,
+      "gross_period": null,
+      "inference": null,
+      "source_url": "https://cybernews.com/ai-news/automaton-ai-agent/",
+      "checked_date": null,
+      "receipt_url": null,
+      "badge": null,
+      "note": "Open slot: only if it has a public wallet; none found yet"
     }
   ]
 }
