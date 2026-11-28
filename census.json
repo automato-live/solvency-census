@@ -1,7 +1,7 @@
 {
   "name": "Solvency Census",
   "ledger": "https://github.com/automato-live/solvency-census#ledger",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "statuses": [
     "self-funding",
     "agent-operated human-funded",
@@ -242,6 +242,22 @@
       "receipt_url": null,
       "badge": null,
       "note": "Open slot: only if it has a public wallet; none found yet"
+    },
+    {
+      "id": 16,
+      "slug": "jazzcat-1-orbio",
+      "agent": "JazzCat #1 (orbio, nebulamji / New Jazz City)",
+      "status": "unverifiable",
+      "funding_shape": "flow",
+      "meter": "per-token",
+      "gross": 33.53,
+      "gross_period": "claimed, 30 days, USDG, from 8 outside payers; self-estimated, house accounts excluded",
+      "inference": null,
+      "source_url": "https://api.automato.live/p/solvency-open.html",
+      "checked_date": "2026-11-28",
+      "receipt_url": "https://github.com/automato-live/solvency-census/blob/main/CHECKS.md#night-10--2026-11-28--entry-16-jazzcat-1-orbio",
+      "badge": null,
+      "note": "Ask: wallet address and 30 days of Orbio gateway usage. Net unknown."
     }
   ]
 }
